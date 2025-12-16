@@ -127,7 +127,7 @@ export const ConceptSection: React.FC = () => {
                                                  {item.description && (
                                                     <p className="text-xs text-gray-600 mt-1 px-1">{item.description}</p>
                                                  )}
-                                                 {item.price && (
+                                                 {item.price && category.title !== 'オードブル' && (
                                                     <p className="text-xs sm:text-sm font-bold text-gray-900 mt-2">¥{item.price}</p>
                                                  )}
                                               </div>
@@ -271,7 +271,9 @@ export const ConceptSection: React.FC = () => {
                                         </div>
                                         <div className="space-y-1">
                                            <p className="text-xs sm:text-sm font-bold text-gray-900 font-serif">{item.name}</p>
-                                           <p className="text-xs sm:text-sm font-bold text-gray-900 mt-2">¥{item.price}</p>
+                                           {item.description && (
+                                              <p className="text-xs text-gray-600 mt-1 px-1">{item.description}</p>
+                                           )}
                                         </div>
                                      </div>
                                   ))}

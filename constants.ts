@@ -56,9 +56,9 @@ export const MENU_CATEGORIES = [
     title: "オードブル",
     description: "法事・お祝いの席にご利用いただける、お持ち帰り用のオードブルをご用意しております。旬の食材をいかしたこだわりの一品を、ご自宅でもお楽しみいただけます。",
     items: [
-      { name: "手造り塩辛", price: 480, image: "/images/menu/スクリーンショット 2025-12-17 1.25.26.png" },
-      { name: "出汁巻き卵", price: 580, image: "/images/menu/スクリーンショット 2025-12-17 1.25.47.png" },
-      { name: "鶏の唐揚げ", price: 680, image: "/images/menu/スクリーンショット 2025-12-17 1.26.01.png" },
+      { name: "手造り塩辛オードブル", price: 480, description: "法事やお祝いの席で、お酒と一緒に楽しめる一品としておすすめです。", image: "/images/menu/スクリーンショット 2025-12-17 1.25.26.png" },
+      { name: "出汁巻き卵オードブル", price: 580, description: "お子様からご年配の方まで、幅広い年代の方に喜ばれる一品です。", image: "/images/menu/スクリーンショット 2025-12-17 1.25.47.png" },
+      { name: "鶏の唐揚げオードブル", price: 680, description: "パーティーやおもてなしの席で、みんなで楽しめる人気の一品です。", image: "/images/menu/スクリーンショット 2025-12-17 1.26.01.png" },
     ]
   },
   {
