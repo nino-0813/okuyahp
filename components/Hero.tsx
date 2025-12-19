@@ -36,8 +36,8 @@ export const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-300 ease-out"
         style={{
-          backgroundImage: "url('/images/hero/スクリーンショット%202025-12-19%2014.00.41.png')",
-          transform: `translateY(${parallaxOffset}px)`,
+          backgroundImage: "url('/images/hero/S__78987294.jpg')",
+          transform: `translateY(${parallaxOffset}px) rotate(-1deg)`,
           willChange: 'transform'
         }}
       ></div>
